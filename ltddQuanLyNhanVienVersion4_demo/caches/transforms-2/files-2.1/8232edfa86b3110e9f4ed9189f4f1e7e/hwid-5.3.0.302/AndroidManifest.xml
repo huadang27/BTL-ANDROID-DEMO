@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.huawei.android.hms.hwid" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="28" />
+
+    <application>
+        <activity
+            android:name="com.huawei.hms.hwid.internal.ui.activity.HwIdSignInHubActivity"
+            android:configChanges="fontScale|uiMode"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.huawei.hms.account.internal.ui.activity.AccountSignInHubActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+
+        <!-- 切记同步修改 HuaweiIdAuthInternalConstant.HMS_SDK_VERSION -->
+        <meta-data
+            android:name="com.huawei.hms.client.service.name:hwid"
+            android:value="hwid:5.3.0.300" />
+        <meta-data
+            android:name="com.huawei.hms.min_api_level:hwid:hwid"
+            android:value="1" />
+
+        <!-- 5.3.0 独立授权依赖的api_level为11 -->
+        <!-- 5.3.0 setCarrierId依赖的api_level为13 -->
+        <meta-data
+            android:name="com.huawei.hms.min_api_level:hwid:account"
+            android:value="13" />
+    </application>
+
+</manifest>

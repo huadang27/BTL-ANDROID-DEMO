@@ -1,0 +1,33 @@
+# To enable ProGuard in your project, edit project.properties
+# to define the proguard.config property as described in that file.
+#
+# Add project specific ProGuard rules here.
+# By default, the flags in this file are appended to flags specified
+# in ${sdk.dir}/tools/proguard/proguard-android.txt
+# You can edit the include path and order by changing the ProGuard
+# include property in project.properties.
+#
+# For more details, see
+#   http://developer.android.com/guide/developing/tools/proguard.html
+
+# Add any project specific keep options here:
+
+# If your project uses WebView with JS, uncomment the following
+# and specify the fully qualified class name to the JavaScript interface
+# class:
+#-keepclassmembers class fqcn.of.javascript.interface.for.webview {
+#   public *;
+#}
+#
+# added By x00485271
+# 在builder.gradle中，通过consumerProguardFiles属性指定本文件的打包的混淆规则到proguard.txt，APK打包时候会自动的寻找库里的混淆规则文件，不需要手工配置。
+# 这个打包给APK使用的混淆规则文件，内容比较少，和AAR自身使用的混淆规则要分开
+# 1.全局配置： 自身使用可以有，打包给APK不需要
+# 2.接口类： 自身使用必须keep，打包给APK后应该允许APK混淆
+#
+
+-keep class com.huawei.updatesdk.**{*;}
+-keep class com.huawei.hms.support.**{*;}
+-keep class com.huawei.hms.hwid.**{*;}
+-keep class com.huawei.hms.account.**{*;}
+-keep class com.huawei.hms.common.**{*;}

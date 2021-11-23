@@ -1,0 +1,20 @@
+#
+
+#API 接口
+-keep class com.huawei.agconnect.auth.*{*;}
+-keep class com.huawei.agconnect.auth.api.*{*;}
+
+-keepclassmembers class **{
+    public <init>(android.content.Context,com.huawei.agconnect.AGConnectInstance);
+}
+
+#网络请求Bean
+-keepclassmembers class com.huawei.agconnect.auth.internal.server.entity.**{*;}
+
+-keepclassmembers class com.huawei.agconnect.auth.internal.server.request.**{*;}
+
+-keepclassmembers class com.huawei.agconnect.auth.internal.server.response.**{*;}
+
+-keep class * implements android.os.Parcelable {
+    public static final android.os.Parcelable$Creator *;
+}

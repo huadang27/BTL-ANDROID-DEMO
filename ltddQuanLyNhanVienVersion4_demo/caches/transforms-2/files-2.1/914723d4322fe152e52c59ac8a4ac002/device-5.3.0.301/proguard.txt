@@ -1,0 +1,6 @@
+-keep class com.huawei.hms.utils.** {*;}
+-keep class com.huawei.hms.common.** {*;}
+-keep class com.huawei.hms.android.** {*;}
+-keep public class com.huawei.hms.support.log.common.Base64 {*;}
+-keep public class com.huawei.hms.support.gentyref.GenericTypeReflector {*;}
+-keep class com.huawei.hms.device.** {*;}

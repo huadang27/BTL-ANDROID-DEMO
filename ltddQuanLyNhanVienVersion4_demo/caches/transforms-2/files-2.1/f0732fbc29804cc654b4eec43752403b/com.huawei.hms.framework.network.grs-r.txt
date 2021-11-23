@@ -1,0 +1,2 @@
+com.huawei.hms.framework.network.grs
+string app_name

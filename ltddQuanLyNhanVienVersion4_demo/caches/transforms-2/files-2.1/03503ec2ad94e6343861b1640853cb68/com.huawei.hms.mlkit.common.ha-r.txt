@@ -1,0 +1,2 @@
+com.huawei.hms.mlkit.common.ha
+string app_name

@@ -1,0 +1,3 @@
+com.huawei.agconnect.datastore.annotation.DefaultCrypto
+com.huawei.agconnect.datastore.annotation.ICrypto
+com.huawei.agconnect.datastore.annotation.SharedPreference

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--   ~ Copyright (c) Huawei Technologies Co., Ltd. 2020-2020. All rights reserved. -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.huawei.hms.mlsdk.base"
+    android:versionCode="20003300"
+    android:versionName="2.0.3.300" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="29" />
+
+    <application>
+        <provider
+            android:name="com.huawei.hms.mlsdk.common.provider.MLInitializerProvider"
+            android:authorities="${applicationId}.MLInitializerProvider"
+            android:exported="false" />
+    </application>
+
+</manifest>

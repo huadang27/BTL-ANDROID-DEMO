@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal"
+    android:background="#00000000">
+
+    // goi dien thoai
+    <ImageButton
+        android:visibility="visible"
+        android:id="@+id/bt_phone"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_margin="5dp"
+        android:background="#FFFFFF"
+        android:elevation="0dp"
+        android:src="@drawable/phone" />
+
+    // nhan tin - sms
+    <ImageButton
+        android:visibility="visible"
+        android:id="@+id/bt_sms"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_margin="5dp"
+        android:background="#FFFFFF"
+        android:elevation="0dp"
+        android:src="@drawable/sms" />
+
+    // gmail
+    <ImageButton
+        android:visibility="visible"
+        android:id="@+id/bt_email"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_margin="5dp"
+        android:background="#FFFFFF"
+        android:elevation="0dp"
+        android:src="@drawable/email" />
+</LinearLayout>

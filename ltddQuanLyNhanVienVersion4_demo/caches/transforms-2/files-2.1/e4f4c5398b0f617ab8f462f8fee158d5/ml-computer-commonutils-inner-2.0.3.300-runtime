@@ -1,0 +1,9 @@
+com.huawei.hms.ml.common.utils.ActivityMgr
+com.huawei.hms.ml.common.utils.BuildConfig
+com.huawei.hms.ml.common.utils.CountryCodeBean
+com.huawei.hms.ml.common.utils.ImageConvertUtils
+com.huawei.hms.ml.common.utils.KeepOriginal
+com.huawei.hms.ml.common.utils.NV21ToBitmapConverter1
+com.huawei.hms.ml.common.utils.SmartLog
+com.huawei.hms.ml.common.utils.SmartLog$ThrowableWrapper
+com.huawei.hms.ml.common.utils.StreamUtils

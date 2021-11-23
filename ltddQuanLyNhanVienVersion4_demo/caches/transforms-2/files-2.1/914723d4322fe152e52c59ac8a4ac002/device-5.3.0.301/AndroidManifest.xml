@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.huawei.hms.base.device" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="26"
+        tools:overrideLibrary="com.huawei.agconnect.core" />
+
+    <!-- 检测网络状态 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application>
+        <provider
+            android:name="com.huawei.hms.device.provider.CheckHmsProvider"
+            android:authorities="${applicationId}.hms.device.validate.spoofprovider"
+            android:exported="false"
+            android:grantUriPermissions="false" />
+    </application>
+
+</manifest>

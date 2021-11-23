@@ -1,0 +1,9 @@
+com.huawei.hms.mlkit.agc.BuildConfig
+com.huawei.hms.mlsdk.common.AgConnectInfo
+com.huawei.hms.mlsdk.common.AgConnectInfo$AgConnectKey
+com.huawei.hms.mlsdk.common.MLApplication
+com.huawei.hms.mlsdk.common.MLApplicationSetting
+com.huawei.hms.mlsdk.common.MLApplicationSetting$1
+com.huawei.hms.mlsdk.common.MLApplicationSetting$BundleKeyConstants
+com.huawei.hms.mlsdk.common.MLApplicationSetting$BundleKeyConstants$AppInfo
+com.huawei.hms.mlsdk.common.MLApplicationSetting$Factory

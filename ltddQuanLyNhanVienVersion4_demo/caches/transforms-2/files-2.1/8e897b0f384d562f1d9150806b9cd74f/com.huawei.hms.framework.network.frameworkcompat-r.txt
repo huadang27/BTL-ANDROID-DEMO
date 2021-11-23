@@ -1,0 +1,2 @@
+com.huawei.hms.framework.network.frameworkcompat
+string app_name

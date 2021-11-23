@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+    //android:visibility="gone"
+    <Button
+        android:visibility="visible"
+        android:id="@+id/bt_create_department"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="create\nnew department"
+        android:textColor="#03A9F4"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:background="@drawable/custom_button_2"
+        android:elevation="10dp"/>
+
+    <Button
+        android:id="@+id/bt_create"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="Create\nNew Account"
+        android:textColor="#03A9F4"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:background="@drawable/custom_button_2"
+        android:elevation="10dp"/>
+
+    <Button
+        android:id="@+id/bt_qr"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="Scan\nQR Code"
+        android:textColor="#03A9F4"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:background="@drawable/custom_button_2"
+        android:elevation="10dp"/>
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/LTDD/AndroidStudioProjects/3TuHocNew/ltddQuanLyNhanVienVersion4/app/src/main/res/drawable/custom_bg_item_history.xml" value="0.2203125" />
+        <entry key="..\:/LTDD/AndroidStudioProjects/3TuHocNew/ltddQuanLyNhanVienVersion4/app/src/main/res/drawable/custom_bg_item_history_green.xml" value="0.2203125" />
+        <entry key="..\:/LTDD/AndroidStudioProjects/3TuHocNew/ltddQuanLyNhanVienVersion4/app/src/main/res/drawable/custom_bg_item_history_red.xml" value="0.2203125" />
+        <entry key="..\:/LTDD/AndroidStudioProjects/3TuHocNew/ltddQuanLyNhanVienVersion4/app/src/main/res/drawable/custom_bg_item_staff.xml" value="0.2203125" />
+        <entry key="..\:/LTDD/AndroidStudioProjects/3TuHocNew/ltddQuanLyNhanVienVersion4/app/src/main/res/drawable/next_orange.xml" value="0.20092592592592592" />
+        <entry key="..\:/LTDD/AndroidStudioProjects/3TuHocNew/ltddQuanLyNhanVienVersion4/app/src/main/res/drawable/next_white.xml" value="0.2203125" />
+        <entry key="..\:/LTDD/AndroidStudioProjects/3TuHocNew/ltddQuanLyNhanVienVersion4/app/src/main/res/layout/activity_admin.xml" value="0.18704710144927536" />
+        <entry key="..\:/LTDD/AndroidStudioProjects/3TuHocNew/ltddQuanLyNhanVienVersion4/app/src/main/res/layout/activity_detail_history.xml" value="0.25" />
+        <entry key="..\:/LTDD/AndroidStudioProjects/3TuHocNew/ltddQuanLyNhanVienVersion4/app/src/main/res/layout/activity_detail_staff.xml" value="0.22" />
+        <entry key="..\:/LTDD/AndroidStudioProjects/3TuHocNew/ltddQuanLyNhanVienVersion4/app/src/main/res/layout/activity_detail_staff_deleted.xml" value="0.12907608695652173" />
+        <entry key="..\:/LTDD/AndroidStudioProjects/3TuHocNew/ltddQuanLyNhanVienVersion4/app/src/main/res/layout/activity_detail_staff_working.xml" value="0.22" />
+        <entry key="..\:/LTDD/AndroidStudioProjects/3TuHocNew/ltddQuanLyNhanVienVersion4/app/src/main/res/layout/activity_edit_infor.xml" value="0.25" />
+        <entry key="..\:/LTDD/AndroidStudioProjects/3TuHocNew/ltddQuanLyNhanVienVersion4/app/src/main/res/layout/activity_list_history.xml" value="0.17889492753623187" />
+        <entry key="..\:/LTDD/AndroidStudioProjects/3TuHocNew/ltddQuanLyNhanVienVersion4/app/src/main/res/layout/activity_list_staff.xml" value="0.1" />
+        <entry key="..\:/LTDD/AndroidStudioProjects/3TuHocNew/ltddQuanLyNhanVienVersion4/app/src/main/res/layout/activity_log_in.xml" value="0.20416666666666666" />
+        <entry key="..\:/LTDD/AndroidStudioProjects/3TuHocNew/ltddQuanLyNhanVienVersion4/app/src/main/res/layout/activity_pay_roll.xml" value="0.19519927536231885" />
+        <entry key="..\:/LTDD/AndroidStudioProjects/3TuHocNew/ltddQuanLyNhanVienVersion4/app/src/main/res/layout/activity_scan_code.xml" value="0.17889492753623187" />
+        <entry key="..\:/LTDD/AndroidStudioProjects/3TuHocNew/ltddQuanLyNhanVienVersion4/app/src/main/res/layout/activity_staff_info.xml" value="0.3827618164967563" />
+        <entry key="..\:/LTDD/AndroidStudioProjects/3TuHocNew/ltddQuanLyNhanVienVersion4/app/src/main/res/layout/dialog_choose_month.xml" value="0.19519927536231885" />
+        <entry key="..\:/LTDD/AndroidStudioProjects/3TuHocNew/ltddQuanLyNhanVienVersion4/app/src/main/res/layout/dialog_feedback.xml" value="0.33" />
+        <entry key="..\:/LTDD/AndroidStudioProjects/3TuHocNew/ltddQuanLyNhanVienVersion4/app/src/main/res/layout/dialog_staff_delete.xml" value="0.16041666666666668" />
+        <entry key="..\:/LTDD/AndroidStudioProjects/3TuHocNew/ltddQuanLyNhanVienVersion4/app/src/main/res/layout/fragment_admin_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/LTDD/AndroidStudioProjects/3TuHocNew/ltddQuanLyNhanVienVersion4/app/src/main/res/layout/fragment_admin_qr.xml" value="0.2028985507246377" />
+        <entry key="..\:/LTDD/AndroidStudioProjects/3TuHocNew/ltddQuanLyNhanVienVersion4/app/src/main/res/layout/fragment_admin_setting.xml" value="0.18704710144927536" />
+        <entry key="..\:/LTDD/AndroidStudioProjects/3TuHocNew/ltddQuanLyNhanVienVersion4/app/src/main/res/layout/fragment_user_setting.xml" value="0.2028985507246377" />
+        <entry key="..\:/LTDD/AndroidStudioProjects/3TuHocNew/ltddQuanLyNhanVienVersion4/app/src/main/res/layout/item_history.xml" value="0.28374070138150903" />
+        <entry key="..\:/LTDD/AndroidStudioProjects/3TuHocNew/ltddQuanLyNhanVienVersion4/app/src/main/res/layout/item_listview_dayadapter.xml" value="0.17889492753623187" />
+        <entry key="..\:/LTDD/AndroidStudioProjects/3TuHocNew/ltddQuanLyNhanVienVersion4/app/src/main/res/layout/item_staff.xml" value="0.5" />
+        <entry key="..\:/LTDD/AndroidStudioProjects/3TuHocNew/ltddQuanLyNhanVienVersion4_demo/app/src/main/res/layout/activity_detail_staff_deleted.xml" value="0.182518115942029" />
+        <entry key="..\:/LTDD/AndroidStudioProjects/3TuHocNew/ltddQuanLyNhanVienVersion4_demo/app/src/main/res/layout/activity_detail_staff_working.xml" value="0.182518115942029" />
+        <entry key="..\:/LTDD/AndroidStudioProjects/3TuHocNew/ltddQuanLyNhanVienVersion4_demo/app/src/main/res/layout/activity_pay_roll.xml" value="0.182518115942029" />
+        <entry key="..\:/LTDD/AndroidStudioProjects/3TuHocNew/ltddQuanLyNhanVienVersion4_demo/app/src/main/res/layout/dialog_feedback.xml" value="0.182518115942029" />
+        <entry key="..\:/LTDD/AndroidStudioProjects/3TuHocNew/ltddQuanLyNhanVienVersion4_demo/app/src/main/res/layout/fragment_admin_qr.xml" value="0.182518115942029" />
+        <entry key="..\:/LTDD/AndroidStudioProjects/3TuHocNew/ltddQuanLyNhanVienVersion4_demo/app/src/main/res/layout/fragment_user_setting.xml" value="0.182518115942029" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

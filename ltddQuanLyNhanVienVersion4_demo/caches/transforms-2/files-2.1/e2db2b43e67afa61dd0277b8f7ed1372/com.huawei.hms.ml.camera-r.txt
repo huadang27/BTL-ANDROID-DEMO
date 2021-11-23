@@ -1,0 +1,8 @@
+com.huawei.hms.ml.camera
+id mlkit_camera_auto_focus
+id mlkit_camera_ha_quit
+id mlkit_camera_picture_ha_begin
+id mlkit_camera_picture_ha_end
+id mlkit_camera_preview_ha_begin
+id mlkit_camera_preview_ha_end
+string app_name

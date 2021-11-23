@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.huawei.hms</groupId>
+    <artifactId>scan</artifactId>
+    <version>1.3.2.300</version>
+    <packaging>aar</packaging>
+    <dependencies>
+        <dependency>
+            <groupId>com.huawei.hms</groupId>
+            <artifactId>network-grs</artifactId>
+            <version>4.0.18.301</version>
+        </dependency>
+        <dependency>
+            <groupId>com.huawei.hms</groupId>
+            <artifactId>dynamic-api</artifactId>
+            <version>1.0.13.303</version>
+        </dependency>
+        <dependency>
+            <groupId>com.huawei.hmf</groupId>
+            <artifactId>tasks</artifactId>
+            <version>1.4.1.300</version>
+        </dependency>
+        <dependency>
+            <groupId>com.huawei.hms</groupId>
+            <artifactId>ml-computer-sdkbase-inner</artifactId>
+            <version>2.0.3.300</version>
+        </dependency>
+        <dependency>
+            <groupId>com.huawei.agconnect</groupId>
+            <artifactId>agconnect-core</artifactId>
+            <version>1.3.1.300</version>
+        </dependency>
+        <dependency>
+            <groupId>com.huawei.hms</groupId>
+            <artifactId>ml-computer-camera-inner</artifactId>
+            <version>2.0.3.300</version>
+        </dependency>
+        <dependency>
+            <groupId>com.huawei.hms</groupId>
+            <artifactId>ml-computer-ha-inner</artifactId>
+            <version>2.0.3.300</version>
+        </dependency>
+    </dependencies>
+</project>

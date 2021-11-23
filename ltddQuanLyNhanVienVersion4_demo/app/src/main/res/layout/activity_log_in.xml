@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DangNhap.LogInActivity"
+    android:background="@color/white">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        android:orientation="vertical"
+        android:onClick="hideKeyboard">
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@drawable/logo4"
+
+            android:transitionName="logo_image"
+
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:layout_gravity="center_horizontal"
+
+            android:fontFamily="@font/arima_madurai"
+
+            android:lineHeight="5mm"
+            android:text="WELLCOM BACK"
+            android:textColor="@color/black"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:transitionName="logo_text" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign in to continue"
+            android:textSize="18dp"
+            android:layout_marginBottom="10dp"/>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_email"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:hint="Email"
+            app:helperTextTextColor="#F44336"
+            app:hintTextColor="#ff8a22"
+            app:boxStrokeColor="#ff8a22"
+            app:endIconMode="clear_text">
+
+            <EditText
+                android:id="@+id/edt_email"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:singleLine="true"
+                android:textCursorDrawable="@color/black"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_password"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:hint="Password"
+            app:helperTextTextColor="#F44336"
+            app:hintTextColor="#ff8a22"
+            app:boxStrokeColor="#ff8a22"
+            app:passwordToggleEnabled="true">
+
+            <EditText
+                android:id="@+id/edt_password"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:singleLine="true"
+                android:textCursorDrawable="@color/black"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp">
+            <CheckBox
+                android:id="@+id/cb_the_terms_and_services"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I and agree to "
+                android:buttonTint="#ff8a22"/>
+
+            <TextView
+                android:id="@+id/txt_the_terms_and_services"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="the terms &amp; services"
+
+                android:textColor="@color/hwid_auth_button_color_blue"
+                android:textSize="16sp"/>
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/bt_go"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="5dp"
+            android:background="#ff8a22"
+            android:elevation="10dp"
+            android:text="Log in"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/bt_forget_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="10dp"
+            android:background="#00000000"
+            android:elevation="0dp"
+            android:text="FORGOT PASSWORD ?"
+            android:textColor="@color/black"/>
+
+<!--        <Button-->
+<!--            android:id="@+id/bt_create"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center_horizontal"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:background="#00000000"-->
+<!--            android:elevation="0dp"-->
+<!--            android:text="TẠO TÀI KHOẢN"-->
+<!--            android:textColor="@color/black"/>-->
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,6 @@
+com.huawei.agconnect.datastore.BuildConfig
+com.huawei.agconnect.datastore.core.AndroidSharedPrefUtil
+com.huawei.agconnect.datastore.core.CryptoUtil
+com.huawei.agconnect.datastore.core.ParcelableSerializer
+com.huawei.agconnect.datastore.core.Platform
+com.huawei.agconnect.datastore.core.SharedPrefUtil

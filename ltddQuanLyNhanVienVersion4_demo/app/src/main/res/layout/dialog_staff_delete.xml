@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:background="@drawable/custom_bg_dialog_department"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:text="Do you want to delete this staff ?"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="2dp"
+        android:background="@color/black"/>
+
+<!--    android:inputType="text"-->
+<!--    android:imeOptions="actionNext"-->
+<!--    android:maxLines="1"-->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_reason"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:hint="Reason for deletion"
+        app:helperTextTextColor="#F44336"
+        app:hintTextColor="#ff8a22"
+        app:boxStrokeColor="#ff8a22"
+        app:endIconMode="clear_text">
+
+        <EditText
+            android:id="@+id/edt_reason"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:textCursorDrawable="@color/black"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:weightSum="2">
+        <Button
+            android:id="@+id/bt_cancel"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:background="#ff8a22"
+            android:elevation="10dp"
+            android:text="cancel"
+            android:textColor="@color/white"
+            android:textSize="18dp"/>
+
+        <Button
+            android:id="@+id/bt_delete"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="#ff8a22"
+            android:elevation="10dp"
+            android:text="delete"
+            android:textColor="@color/white"
+            android:textSize="18dp"/>
+    </LinearLayout>
+</LinearLayout>

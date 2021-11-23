@@ -1,0 +1,5 @@
+-keep class com.huawei.hms.base.** {*;}
+-keep public class com.huawei.hms.support.log.HMSDebugger {*;}
+-keep public class com.huawei.hms.support.log.LogLevel {*;}
+-keep public class com.huawei.hms.support.log.HMSLog {*;}
+-keep class com.huawei.hms.log.** {*;}

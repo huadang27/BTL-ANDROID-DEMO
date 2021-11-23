@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">QLNV</string>
+
+    <string-array name="chuc_vu">
+        <item>Thực Tập Sinh</item>
+        <item>Nhân Viên</item>
+        <item>Phó phòng</item>
+        <item>Trưởng phòng</item>
+        <item>Phó giám đốc</item>
+        <item>Giám đốc</item>
+        <item>Tổng giám đốc</item>
+    </string-array>
+
+    <string-array name="he_so_luong">
+        <item>1.0</item>
+        <item>1.2</item>
+        <item>1.4</item>
+        <item>1.6</item>
+        <item>1.8</item>
+        <item>2.0</item>
+        <item>2.2</item>
+        <item>2.4</item>
+        <item>2.6</item>
+        <item>2.8</item>
+        <item>3.0</item>
+    </string-array>
+
+    <string-array name="phong">
+        <item>Dev</item>
+        <item>QA</item>
+        <item>PA</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

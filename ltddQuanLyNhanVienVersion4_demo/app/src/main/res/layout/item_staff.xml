@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginLeft="5dp"
+    android:id="@+id/item_LinearLayout"
+    android:background="@drawable/custom_bg_item_staff">
+
+    <ImageView
+        android:id="@+id/image_NV"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginRight="5dp"
+        android:src="@drawable/person_500px"
+        android:background="@drawable/ic_launcher_background"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/name_NV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nguyen Van A"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/black" />
+        <TextView
+            android:id="@+id/email_NV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="nguyenvanahanoi@gmail.com"
+            android:textSize="12sp"
+            android:textColor="@color/black" />
+        <TextView
+            android:id="@+id/id_NV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0123456789123"
+            android:textSize="12dp"
+            android:textColor="@color/black" />
+        <TextView
+            android:id="@+id/position_NV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nhan vien"
+            android:textSize="12dp"
+            android:textColor="@color/black" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/bt_payroll"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_margin="15dp"
+        android:text="Pay\nRoll"
+        android:textColor="#03A9F4"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:background="@drawable/custom_button_2"
+        android:elevation="10dp"/>
+
+    <Button
+        android:id="@+id/bt_gen_qr"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_margin="15dp"
+        android:text="Gen\nQR code"
+        android:textColor="#03A9F4"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:background="@drawable/custom_button_2"
+        android:elevation="10dp"/>
+
+</LinearLayout>

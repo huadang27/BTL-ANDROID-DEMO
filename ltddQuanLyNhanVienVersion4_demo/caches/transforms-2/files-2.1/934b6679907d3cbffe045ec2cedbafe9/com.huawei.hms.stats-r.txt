@@ -1,0 +1,2 @@
+com.huawei.hms.stats
+string app_name

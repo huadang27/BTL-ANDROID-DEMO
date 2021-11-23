@@ -1,0 +1,15 @@
+com.huawei.hms.framework.common.ActivityManagerCompat
+com.huawei.hms.framework.common.ActivityUtil
+com.huawei.hms.framework.common.AssetsUtil
+com.huawei.hms.framework.common.ContextCompat
+com.huawei.hms.framework.common.CreateFileUtil
+com.huawei.hms.framework.common.EmuiUtil
+com.huawei.hms.framework.common.NetworkUtil
+com.huawei.hms.framework.common.NetworkUtil$1
+com.huawei.hms.framework.common.NetworkUtil$2
+com.huawei.hms.framework.common.NetworkUtil$NetType
+com.huawei.hms.framework.common.PackageManagerCompat
+com.huawei.hms.framework.common.PowerUtils
+com.huawei.hms.framework.common.PowerUtils$PowerMode
+com.huawei.hms.framework.common.SettingUtil
+com.huawei.hms.framework.network.frameworkcompat.BuildConfig

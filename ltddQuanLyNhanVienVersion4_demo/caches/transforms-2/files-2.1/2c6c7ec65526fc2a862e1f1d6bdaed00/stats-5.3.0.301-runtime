@@ -1,0 +1,11 @@
+com.huawei.hms.stats.a
+com.huawei.hms.stats.b
+com.huawei.hms.stats.c
+com.huawei.hms.support.hianalytics.HiAnalyticsConstant
+com.huawei.hms.support.hianalytics.HiAnalyticsConstant$Direction
+com.huawei.hms.support.hianalytics.HiAnalyticsConstant$HaKey
+com.huawei.hms.support.hianalytics.HiAnalyticsConstant$KeyAndValue
+com.huawei.hms.support.hianalytics.HiAnalyticsUtils
+com.huawei.hms.utils.HMSBIInitializer
+com.huawei.hms.utils.HMSBIInitializer$a
+com.huawei.hms.utils.HMSBIInitializer$b

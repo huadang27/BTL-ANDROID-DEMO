@@ -1,0 +1,7 @@
+com.huawei.hms.base.log.a
+com.huawei.hms.base.log.b
+com.huawei.hms.base.log.c
+com.huawei.hms.base.log.d
+com.huawei.hms.support.log.HMSDebugger
+com.huawei.hms.support.log.HMSLog
+com.huawei.hms.support.log.LogLevel
