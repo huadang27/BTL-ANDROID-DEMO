@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "379176056349",
+    "firebase_url": "https://baitaplon1-d58cf-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "baitaplon1-d58cf",
+    "storage_bucket": "baitaplon1-d58cf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:379176056349:android:adeede0eabb7af1f45b8f4",
+        "android_client_info": {
+          "package_name": "com.hqdang.baitaplonversion1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "379176056349-p8dhjeti2e5nojfngb19jhnlb60t9duf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDG1Jlhy5y0IrT_nO2wuyVyVNlXnzD3YdM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "379176056349-p8dhjeti2e5nojfngb19jhnlb60t9duf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

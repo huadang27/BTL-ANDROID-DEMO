@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hqdang.baitaplonversion1">
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_qlnv"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo_qlnv"
+        android:supportsRtl="true"
+        android:requestLegacyExternalStorage="true"
+        android:theme="@style/Theme.BaiTapLonVersion1">
+        <activity android:name=".ChiTiet.DetailStaff"></activity>
+        <activity android:name=".TinhCong.PayRollActivity" />
+        <activity android:name=".DanhSach.ListStaffActivity" />
+        <activity android:name=".QuenMatKhau.ResetPassSuccessActivity" />
+        <activity android:name=".QuenMatKhau.ResetPassActivity" />
+        <activity android:name=".QuenMatKhau.EnterEmailActivity" />
+        <activity android:name=".TaoTaiKhoan.CreatePassActivity" />
+        <activity android:name=".TaoTaiKhoan.StaffInfoActivity" />
+        <activity android:name=".TaoTaiKhoan.ContactInfoActivity" />
+        <activity android:name=".TaoTaiKhoan.PersonInforActivity" >
+
+        </activity>
+        <activity android:name=".DangNhap.SilentLoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".DangNhap.LogInActivity" />
+        <activity android:name=".ManHinhChinh.AdminActivity" />
+        <activity android:name=".ManHinhChinh.UserActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".QRCode.ScanCodeActivity" />
+    </application>
+
+</manifest>
